@@ -1,0 +1,11 @@
+/* Page */
+ul, ul li{list-style: none;}
+ul.text {margin-bottom: 1em; line-height: 1.5em;}
+.text-center {text-align: center;}
+
+.wrap {width: 960px; margin: 0 auto;}
+.demo-container {padding: 10px; float: right; width: 200px;background-color:#eee}
+.demo-container h4 {font-size: 12px; margin: 0 0 5px 0;}
+.clear {clear: both;}
+
+.dcjq-count {float: right;}

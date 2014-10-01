@@ -1,0 +1,138 @@
+
+
+.nav {
+	border : 1px dotted #D0D0D0;
+	border-radius :5px;
+	width: 200px;
+	height: 26px;
+	background: #E0E0E0;
+	/*url(bgGreen.png);*/
+	color: #000;
+	text-align:left;
+	align:left;
+	float:left;
+}
+
+.menu a {
+	
+	color: #000;
+	text-decoration: none;
+	text-align:left;
+	width: 200px;
+	height: 26px;
+	
+}
+
+.menu span {
+	
+	color: #000;
+	text-decoration: none;
+	width: 180px;
+	height: 26px;
+	
+}
+
+.menu a:hover {
+	color: #000
+}
+
+.menu {
+	
+	font: 10px Tahoma;
+	text-align: left;
+	width: 180px;
+	
+}
+
+.menu li {
+	text-align:center;
+	
+	position: relative;
+	
+	width: 180px;
+	
+}
+
+.menu ul {
+	
+	display: none;
+	position: absolute;
+	font: normal 10px Tahoma;
+	top: 27px;
+	left: -6px;
+	background: #F0F0F0;
+	border:1px dotted #D0D0D0;
+	width: 185px;
+}
+
+.menu ul li {
+	float: center;
+	align:center;
+	border-top: 1px solid #fff;
+	
+	width: 190px;
+}
+
+.menu ul li a,li.menuhover li a,li.menuhover li.menuhover li a {
+	float: none;
+	display: block;
+	background: none;
+	height: 25px;
+	width: 190px;
+	
+}
+
+.menu ul li a:hover,li.menuhover li a:hover,li.menuhover li.menuhover li a:hover
+	{
+	background: #E0E0E0;
+	color: #000;
+	width: 180px;
+}
+
+.menu ul li span,li.menuhover li span,li.menuhover li.menuhover li span
+	{
+	float: none;
+	display: block;
+	background: none;
+	height: 22px;
+	padding-top: 5px;
+	width: 200px;
+}
+
+.menu ul ul {
+	left: 200px;
+	top: 0
+}
+
+.menu li.submenu {
+	font-weight: bold;
+	width: 180px
+}
+
+.menu li.noborder {
+	border-top: none
+}
+
+li.menuhover a,li.menuhover li.menuhover a {
+	color: #000;
+	background: #fff
+}
+
+li.menuhover span,li.menuhover li.menuhover span {
+	color: #fff;
+	background: #999
+}
+
+#info {
+	width: 200px;
+	background: #eee
+}
+
+#info li {
+	width: 200px;
+	border-top: none;
+	
+	color: #666;
+	
+	text-align: left
+}

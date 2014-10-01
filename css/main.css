@@ -1,0 +1,317 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 11px Tahoma;
+	background-image: url('../images/bg/BGMLQ.jpg');
+	background-repeat: no-repeat;
+	background-color: #04091d;
+}
+
+#page
+{
+	margin-top: 70px;
+	margin-bottom: 5px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 1px solid #C9E0ED;
+	font: normal 11px Tahoma;
+	border-radius : 10px;
+	min-height: 450px;
+	box-shadow: 0px 2px 10px #333;
+}
+#span
+{
+	
+	font-family: Tahoma;
+	font-size: 11px;
+	
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+#content
+{
+	width:99%;
+    
+    font: normal 11px Tahoma;
+}
+
+#sidebar
+{
+	padding: 0 0px 0px 0;
+}
+
+#footer
+{
+	direction:ltr;
+	padding: 5px;
+	margin: 5px 5px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 0px solid #C9E0ED;
+	font: normal 11px Tahoma;
+	color: #ddd;
+}
+
+#logo
+{
+	padding: 11px 20px;
+	font-size: 200%;
+}
+
+#mainmenu
+{
+	background:white url(bg4.jpg) repeat-x left top;
+}
+
+#mainmenu ul
+{
+	padding:6px 20px 5px 20px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #6399cd;
+	background-color:#EFF4FA;
+	text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+	font: normal 11px Tahoma;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+	font: normal 11px Tahoma;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+	font: normal 11px Tahoma;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+	font: normal 11px Tahoma;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+	font: normal 11px Tahoma;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+	font: normal 11px Tahoma;
+}
+
+div.flash-success a
+{
+	color:#264409;
+	font: normal 11px Tahoma;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+	font: normal 11px Tahoma;
+}
+
+div.view
+{
+	padding: 11px;
+	margin: 11px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 11px;
+	padding-top: 7px; 
+	padding-right : 24px;
+	background-color: #F8F7FF;
+	height: 20px;
+	border: 1px dotted #ddd;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 11px;
+	margin: 11px 0;
+	background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	font-family: Tahoma;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Tahoma;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+	
+}
+table.detail-view-custom .null
+{
+	color: pink;
+	
+}
+
+table.detail-view-custom
+{
+	background: white;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0;
+	font: normal 11px Tahoma;
+}
+
+table.detail-view-custom th, table.detail-view-custom td
+{
+	font-size: 0.9em;
+	border: 1px white solid;
+	padding: 0.3em 0.6em;
+	vertical-align: top;
+	text-align: left;
+	font: normal 11px Tahoma;
+}
+
+table.detail-view-custom th
+{
+	text-align: left;
+	width: 160px;
+	font: normal 11px Tahoma;
+}
+
+table.detail-view-custom tr.odd
+{
+	background:#E5F1F4;
+	font: normal 11px Tahoma;
+}
+table.detail-view-custom tr.header
+{
+	background: url('bg2.gif');
+	color:white;
+	font: normal 11px Tahoma;
+}
+table.detail-view-custom tr.even
+{
+	background:#F8F8F8;
+	font: normal 11px Tahoma;
+}
+
+table.detail-view-custom tr.odd th
+{
+}
+
+table.detail-view-custom tr.even th
+{
+}

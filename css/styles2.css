@@ -1,0 +1,153 @@
+/*@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);*/
+@charset 'UTF-8';
+/* Base Styles */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: Tahoma;
+  font-size: 13px;
+  position: relative;
+}
+/*656659*/
+#cssmenu {
+  width: 230px;
+  border-bottom: 4px solid #DAD9D4;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#cssmenu a {
+  line-height: 1;
+}
+#cssmenu > ul > li:first-child {
+  background: #ECECEC;
+  background: -moz-linear-gradient(#ECECEC 0%, #ECECEC 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ECECEC), color-stop(100%, #ECECEC));
+  background: -webkit-linear-gradient(#ECECEC 0%, #ECECEC 100%);
+  background: linear-gradient(#ECECEC 0%, #ECECEC 100%);
+  border: 1px solid #D4D4D4;  
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  font-size: 13px;
+}
+#cssmenu > ul > li:first-child > a {
+  padding-top:15px;
+  padding-left:35px;
+  display: block;
+  height:25px;
+  border: none;
+  border-top: 1px solid #D4D4D4;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  font-family: Tahoma;
+  text-align: left;
+  color: #676767;
+  font-size: 13px;
+  font-weight: bold;
+  
+}
+#cssmenu > ul > li:first-child > a > span {
+  padding: 0;
+}
+#cssmenu > ul > li:first-child:hover {
+  background: #ECECEC;
+  background: -moz-linear-gradient(#ECECEC 0%, #ECECEC 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ECECEC), color-stop(100%, #ECECEC));
+  background: -webkit-linear-gradient(#ECECEC 0%, #ECECEC 100%);
+  background: linear-gradient(#ECECEC 0%, #ECECEC 100%);
+}
+#cssmenu > ul > li {
+  background: #7B83EF;
+  background: -moz-linear-gradient(#7B83EF 0%, #8E8BE3 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7B83EF), color-stop(100%, #8E8BE3));
+  background: -webkit-linear-gradient(#7B83EF 0%, #8E8BE3 100%);
+  background: linear-gradient(#7B83EF 0%, #8E8BE3 100%);
+}
+#cssmenu > ul > li:hover {
+  background: #5D5CE2;
+  background: -moz-linear-gradient(#37e3ee 0%, #2955e8 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3753ee), color-stop(100%, #2955e8));
+  background: -webkit-linear-gradient(#3753ee 0%, #2955e8 100%);
+  background: linear-gradient(#5D8CE2 0%, #5D5CE2 100%);
+}
+#cssmenu > ul > li > a {
+  font-size: 13px;
+  display: block;
+  background: url(images/pattern.png) top left repeat;
+  color: #ffffff;
+  border: 1px solid #7B73EF;
+  border-top: none;
+ padding-left:25px;
+  
+}
+#cssmenu > ul > li > a > span {
+  display: block;
+  padding: 12px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+#cssmenu > ul > li.active {
+	display:block; z-index:1;
+  border-bottom: none;
+}
+#cssmenu > ul > li.has-sub > a span {
+  background: url(../images/icon_plus.png) 95% center no-repeat;
+}
+#cssmenu > ul > li.has-sub.active > a span {
+  background: url(../images/icon_minus.png) 95% center no-repeat;
+}
+/* Sub menu */
+#cssmenu ul ul {
+  display: none;
+  background: #fff;
+  border-right: 1px solid #D4D4D4;
+  border-left: 1px solid #D4D4D4;
+}
+#cssmenu ul ul li {
+  padding: 0;
+  border-bottom: 1px solid #d4d4d4;
+  border-top: none;
+  background: #f7f7f7;
+  background: -moz-linear-gradient(#f7f7f7 0%, #ececec 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #ececec));
+  background: -webkit-linear-gradient(#f7f7f7 0%, #ececec 100%);
+  background: linear-gradient(#f7f7f7 0%, #ececec 100%);
+}
+#cssmenu ul ul li:last-child {
+  border-bottom: none;
+}
+#cssmenu ul ul a {
+  padding: 10px 10px 10px 5px;
+  display: block;
+  color: #676767;
+  font-size: 12px;
+  font-weight: normal;
+  padding-right:38px;
+ 
+}
+#cssmenu ul ul a:before {
+  content: '::';
+  font-size:12px;
+  position: absolute;
+  right: 15px;
+  color: #43a9d1;
+}
+#cssmenu ul ul a:hover {
+  color: #43a9d1;
+}

@@ -1,0 +1,51 @@
+table.detail-view .null
+{
+	color: pink;
+}
+
+table.detail-view
+{
+	background: white;
+	width: 100%;
+	margin: 0;
+	border: 1px dashed #ccc;
+}
+
+table.detail-view th, table.detail-view td
+{
+	font-size: 0.9em;
+	border: 1px white solid;
+	padding: 0.3em 0.6em;
+	vertical-align: top;
+	float: right;
+	text-align:right;
+	font-size: 12px;
+	padding: 5px; 
+	text-align: right;
+}
+
+table.detail-view th
+{
+	text-align: right;
+	width: 160px;
+}
+
+table.detail-view tr.odd
+{
+	background: #EDEDEF;
+	border: 1px #ddd dashed;
+}
+
+table.detail-view tr.even
+{
+	background: #DEDDEF;
+	border: 1px #ddd dashed;
+}
+
+table.detail-view tr.odd th
+{
+}
+
+table.detail-view tr.even th
+{
+}
